@@ -95,10 +95,10 @@ Developed by [@Aly Qamar](https://www.linkedin.com/in/alyqamar) - alyelsamouly@g
 [contributors-shield]: https://img.shields.io/github/contributors/alyQamar/Taqs.svg?style=for-the-badge
 [contributors-url]: https://github.com/alyQamar/Taqs/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/alyQamar/Taqs.svg?style=for-the-badge
-[forks-url]: https://github.com/Taqs/network/members
+[forks-url]: https://github.com/alyQamar/Taqs/network/members
 [stars-shield]: https://img.shields.io/github/stars/alyQamar/Taqs.svg?style=for-the-badge
 [stars-url]: https://github.com/Taqs/stargazers
 [issues-shield]: https://img.shields.io/github/issues/alyQamar/Taqs.svg?style=for-the-badge
-[issues-url]: https://github.com/Taqs/issues
+[issues-url]: https://github.com/alyQamar/Taqs/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/alyqamar/
