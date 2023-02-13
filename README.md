@@ -9,7 +9,7 @@
 
 <div align="center">
 <!-- PROJECT LOGO -->
-  <a href="https://github.com/alyQamar/CRM">
+  <a href="https://www.flaticon.com/free-icon/weather-app_9502324?term=weather&page=1&position=70&origin=search&related_id=9502324">
     <img src="https://cdn-icons-png.flaticon.com/512/9502/9502324.png" alt="Logo" width="80" height="80">
   </a>
 
