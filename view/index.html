@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Character encoding declaration -->
+    <meta charset="UTF-8" />
+
+    <!-- Viewport for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Shortcut icon for the website -->
+    <link rel="shortcut icon" type="image/png" href="/img/icon.png" />
+
+    <!-- Google Fonts for styling -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link to the stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Script that will run after the page has finished loading -->
+    <script defer src="app.js"></script>
+
+    <!-- Title for the webpage -->
+    <title>Taqs</title>
+  </head>
+  <body>
+    <!-- Header section -->
+    <header>
+      <h1>Taqs</h1>
+    </header>
+
+    <!-- Zipcode input section -->
+    <div class="holder zip">
+      <input type="text" id="zip" placeholder="Enter Zipcode here" />
+      <!-- Error message for invalid zipcode -->
+      <small id="error"></small>
+    </div>
+
+    <!-- Feelings textarea section -->
+    <div class="holder feel">
+      <textarea
+        id="feelings"
+        rows="2"
+        cols="30"
+        placeholder="How are you feeling today?"
+      ></textarea>
+      <!-- Submit button to generate the weather report -->
+      <button id="generate" type="submit">Generate</button>
+    </div>
+
+    <!-- Weather report output section -->
+    <div class="output">
+      <h2>Weather for Today:</h2>
+      <div id="entryHolder">
+        <!-- Display for the current date -->
+        <div id="date"></div>
+        <!-- Display for the temperature -->
+        <div id="temperature"></div>
+        <!-- Display for the weather description -->
+        <div id="description"></div>
+        <!-- Display for the city name -->
+        <div id="city"></div>
+        <!-- Display for the user's feelings -->
+        <div id="status"></div>
+      </div>
+    </div>
+  </body>
+</html>
