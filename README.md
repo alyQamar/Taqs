@@ -5,6 +5,13 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+<br />
+
+<div align="center">
+<!-- PROJECT LOGO -->
+  <a href="https://github.com/alyQamar/CRM">
+    <img src="https://cdn-icons-png.flaticon.com/512/9502/9502324.png" alt="Logo" width="80" height="80">
+  </a>
 
   <h3 align="center">Taqs</h3>
   <p align="center">
