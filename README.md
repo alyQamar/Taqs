@@ -57,18 +57,18 @@ Welcome to the Taqs repository! This repository contains the source code for a s
 
 ## How to Use
 
-1- Clone the repository: git clone https://github.com/alyQamar/Taqs.git
-2- Install the dependencies: npm install
-3- Start the server: npm start
-4- Open the app in a web browser: http://localhost:5000/
-5- Enter a zip code in the input field and click the "Generate" button to search for weather data
-6- Type in your thoughts on the weather in the "Feelings" field
-7- Click the "Generate" button to save the weather data and your thoughts
-8- The saved data will be displayed on the page, including the date, city, temperature, weather description, and your thoughts
+1- Clone the repository: git clone https://github.com/alyQamar/Taqs.git <br />
+2- Install the dependencies: npm install <br />
+3- Start the server: npm start <br />
+4- Open the app in a web browser: http://localhost:5000/ <br />
+5- Enter a zip code in the input field and click the "Generate" button to search for weather data <br />
+6- Type in your thoughts on the weather in the "Feelings" field <br />
+7- Click the "Generate" button to save the weather data and your thoughts <br />
+8- The saved data will be displayed on the page, including the date, city, temperature, weather description, and your thoughts <br />
 
-**Note:**
+#### Note:
 
-- Please make sure to replace the OpenWeatherMap API key in the code with your own API key.
+Please make sure to replace the OpenWeatherMap API key in the code with your own API key.
 
 ## Contributions
 
