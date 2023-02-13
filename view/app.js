@@ -85,7 +85,10 @@ const updateWeather = async function () {
       savedData.temperature + '&degC';
     document.getElementById('description').innerHTML = savedData.description;
     document.getElementById('status').innerHTML = savedData.feelings;
+    //Delete input values
     resetInputs();
+    //Reveal output section
+    document.querySelector('.output').style.opacity = 1;
   } catch (error) {
     console.log(error);
   }
