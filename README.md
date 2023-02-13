@@ -75,7 +75,8 @@ Welcome to the Taqs repository! This repository contains the source code for a s
 
 #### Note:
 
-Please make sure to replace the OpenWeatherMap API key in the code with your own API key.
+- Please make sure to replace the OpenWeatherMap API key in the code with your own API key.
+- Zip codes for US regions
 
 ## Contributions
 
