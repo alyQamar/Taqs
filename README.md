@@ -18,7 +18,7 @@
     <a href="https://github.com/alyQamar/Taqs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://alyqamar.github.io/Landing-Page">View Demo</a>
+    <a href="https://alyqamar.github.io/Taqs">View Demo</a>
     ·
     <a href="https://github.com/alyQamar/Taqs/issues">Report Bug</a>
     ·
@@ -92,13 +92,13 @@ Developed by [@Aly Qamar](https://www.linkedin.com/in/alyqamar) - alyelsamouly@g
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/alyQamar/Landing-Page.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/alyQamar/Taqs.svg?style=for-the-badge
 [contributors-url]: https://github.com/alyQamar/Taqs/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/alyQamar/Landing-Page.svg?style=for-the-badge
-[forks-url]: https://github.com/Taqs/Landing-Page/network/members
-[stars-shield]: https://img.shields.io/github/stars/alyQamar/Landing-Page.svg?style=for-the-badge
-[stars-url]: https://github.com/Taqs/Landing-Page/stargazers
-[issues-shield]: https://img.shields.io/github/issues/alyQamar/Landing-Page.svg?style=for-the-badge
-[issues-url]: https://github.com/Taqs/Landing-Page/issues
+[forks-shield]: https://img.shields.io/github/forks/alyQamar/Taqs.svg?style=for-the-badge
+[forks-url]: https://github.com/Taqs/network/members
+[stars-shield]: https://img.shields.io/github/stars/alyQamar/Taqs.svg?style=for-the-badge
+[stars-url]: https://github.com/Taqs/stargazers
+[issues-shield]: https://img.shields.io/github/issues/alyQamar/Taqs.svg?style=for-the-badge
+[issues-url]: https://github.com/Taqs/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/alyqamar/
