@@ -1,10 +1,96 @@
-# Weather-Journal App Project
+<a name="readme-top"></a>
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+  <h3 align="center">Taqs</h3>
+  <p align="center">
+    <a href="https://github.com/alyQamar/Taqs"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://alyqamar.github.io/Landing-Page">View Demo</a>
+    ·
+    <a href="https://github.com/alyQamar/Taqs/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/alyQamar/Taqs/issues">Request Feature</a>
+  </p>
+</div>
+
+<summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#how-to-use">How to Use</a></li>
+    <li><a href="#contributions">Contributions</a></li>
+    <li><a href="#resource">Resource</a></li>
+  </ol>
 
 ## Overview
-This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
 
-## Instructions
-This will require modifying the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.
+Welcome to the Taqs repository! This repository contains the source code for a simple weather app that allows users to search for weather data based on zip codes. The user can also save the weather data and their thoughts on the weather.The weather data is fetched from the OpenWeatherMap API and is displayed on the frontend. The weather information and mood of the user is also saved to a local server using Express.
 
-## Extras
-If you are interested in testing your code as you go, you can use `tests.js` as a template for writing and running some basic tests for your code.
+<h1 align="center">
+    <img src="/img/screenshot.png"/>
+</h1>
+
+## Features
+
+- [x] Allows users to search for weather data based on zip codes
+- [x] Saves weather data and user's thoughts on the weather
+- [x] Displays saved data, including date, city, temperature, weather description, and user's thoughts
+
+## Built With
+
+- JavaScript
+- HTML
+- CSS
+- Node.js
+- Express
+- Fetch API
+- OpenWeatherMap API
+
+---
+
+## How to Use
+
+1- Clone the repository: git clone https://github.com/alyQamar/Taqs.git
+2- Install the dependencies: npm install
+3- Start the server: npm start
+4- Open the app in a web browser: http://localhost:5000/
+5- Enter a zip code in the input field and click the "Generate" button to search for weather data
+6- Type in your thoughts on the weather in the "Feelings" field
+7- Click the "Generate" button to save the weather data and your thoughts
+8- The saved data will be displayed on the page, including the date, city, temperature, weather description, and your thoughts
+
+**Note:**
+
+- Please make sure to replace the OpenWeatherMap API key in the code with your own API key.
+
+## Contributions
+
+I welcome contributions to this repository, whether in the form of bug fixes, new features, or design improvements. If you would like to contribute, please create a pull request and I will review it as soon as possible.
+
+Thank you for visiting the Taqs repository! I hope it helps you and used as a starting point for more complex weather apps or other projects that require fetching and saving data.
+
+## Resource
+
+This project was developed in [Professional Front-End Web Development track](https://egfwd.com/specializtion/web-development-professional/) which provided by [Udacity](https://www.udacity.com) and [EGFWD](https://egfwd.com/).<br/>
+
+Developed by [@Aly Qamar](https://www.linkedin.com/in/alyqamar) - alyelsamouly@gmail.com
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/alyQamar/Landing-Page.svg?style=for-the-badge
+[contributors-url]: https://github.com/alyQamar/Taqs/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/alyQamar/Landing-Page.svg?style=for-the-badge
+[forks-url]: https://github.com/Taqs/Landing-Page/network/members
+[stars-shield]: https://img.shields.io/github/stars/alyQamar/Landing-Page.svg?style=for-the-badge
+[stars-url]: https://github.com/Taqs/Landing-Page/stargazers
+[issues-shield]: https://img.shields.io/github/issues/alyQamar/Landing-Page.svg?style=for-the-badge
+[issues-url]: https://github.com/Taqs/Landing-Page/issues
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/alyqamar/
