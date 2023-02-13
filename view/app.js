@@ -4,6 +4,8 @@ let newDate = date.toDateString();
 
 // Define constant variables
 const API_KEY = '75cad9f1db86a3c289892c67eaa91749';
+const unitSys = 'imperial'; //Imperial temperature unit is Fahrenheit
+const degSymb = '&degF'; //Fahrenheit symbol
 const serverUrl = 'http://localhost:5000';
 
 // Get the error element from the DOM
@@ -19,7 +21,7 @@ const err = document.getElementById('error');
 const getWeatherData = async function (zip) {
   try {
     // Build the URL for the API request
-    const url = `https://api.openweathermap.org/data/2.5/weather?zip=${zip}&appid=${API_KEY}&units=metric`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?zip=${zip}&appid=${API_KEY}&units=${unitSys}`;
 
     // Make the API request
     const res = await fetch(url);
@@ -82,7 +84,7 @@ const updateWeather = async function () {
     document.getElementById('date').innerHTML = savedData.newDate;
     document.getElementById('city').innerHTML = savedData.city;
     document.getElementById('temperature').innerHTML =
-      savedData.temperature + '&degC';
+      savedData.temperature + `${degSymb}`;
     document.getElementById('description').innerHTML = savedData.description;
     document.getElementById('status').innerHTML = savedData.feelings;
     //Delete input values
@@ -106,7 +108,7 @@ const generateData = function () {
 
   // Construct the API URL using the input zip code
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?zip=${zip},
-  &appid=${API_KEY}&units=metric`;
+  &appid=${API_KEY}&units=${unitSys}`;
 
   // Call the getWeatherData function to retrieve the weather data
   getWeatherData(zip).then(data => {
