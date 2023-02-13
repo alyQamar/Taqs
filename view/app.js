@@ -64,6 +64,10 @@ const postData = async function (url = '', info = {}) {
 };
 
 // Function to reset the input fields
+const resetInputs = function () {
+  const inputs = document.getElementsByClassName('input');
+  Array.from(inputs).forEach(input => (input.value = ''));
+};
 
 /**
  * updateWeather is an async function that updates the weather information on the page
@@ -81,6 +85,7 @@ const updateWeather = async function () {
       savedData.temperature + '&degC';
     document.getElementById('description').innerHTML = savedData.description;
     document.getElementById('status').innerHTML = savedData.feelings;
+    resetInputs();
   } catch (error) {
     console.log(error);
   }
@@ -92,6 +97,7 @@ const updateWeather = async function () {
  */
 const generateData = function () {
   // Get the values of the zip code and feelings input fields
+
   const zip = document.getElementById('zip').value;
   const feelings = document.getElementById('feelings').value;
 

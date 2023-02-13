@@ -33,7 +33,12 @@
 
     <!-- Zipcode input section -->
     <div class="holder zip">
-      <input type="text" id="zip" placeholder="Enter Zipcode here" />
+      <input
+        type="text"
+        id="zip"
+        placeholder="Enter Zipcode here"
+        class="input"
+      />
       <!-- Error message for invalid zipcode -->
       <small id="error"></small>
     </div>
@@ -45,6 +50,7 @@
         rows="2"
         cols="30"
         placeholder="How are you feeling today?"
+        class="input"
       ></textarea>
       <!-- Submit button to generate the weather report -->
       <button id="generate" type="submit">Generate</button>
