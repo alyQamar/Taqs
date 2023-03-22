@@ -6,7 +6,10 @@ let newDate = date.toDateString();
 const API_KEY = '75cad9f1db86a3c289892c67eaa91749';
 const unitSys = 'imperial'; //Imperial temperature unit is Fahrenheit
 const degSymb = '&degF'; //Fahrenheit symbol
-const serverUrl = 'http://localhost:5000';
+// Define the port and host for the server
+const port = process.env.PORT || 5000;
+const host = 'localhost';
+const serverUrl = `http://${host}:${port}/`;
 
 // Get the error element from the DOM
 const err = document.getElementById('error');
