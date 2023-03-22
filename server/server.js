@@ -1,5 +1,5 @@
 // Define the port and host for the server
-const port = 5000;
+const port = process.env.PORT || 5000;
 const host = 'localhost';
 
 // Create the base URL for the server
